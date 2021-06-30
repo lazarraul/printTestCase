@@ -14,7 +14,7 @@ public class Main {
         title.add("\t\t\t\t\t\t\t\t\t\t\tPass/Fail");
         System.out.println(title);
         //Title from my Test Case
-        System.out.println("\tTC_DS_01");
+        System.out.println("\tTC_DS_01\t Verify Login Functionality");
         System.out.println("Pre-req:Username:dino,beetle,turtle,Password:choochoo");
         System.out.println();
 
@@ -71,8 +71,59 @@ public class Main {
         //Pass OR Fail
         //end of test
 
+        System.out.println();
+        System.out.println("\tTC_DS_02\t Check functionality of products button");
+        System.out.println("Test-Data1:Check the following products button Concrete Hat, Steel Gloves, Wooden Bacon, Frozen Mouse");
+        System.out.println("Test-Data2:Check the following products button Awesome Granit chips, Metal Chair, Soft Shirt, Gorgeous Soft Pizza");
+        System.out.println("Pre-req:Login with TC_DC_01 steps");
+        System.out.println();
 
+        ArrayList<String> id1 = new ArrayList<String>();
+        id1.add("\t\t1");
+        id1.add("\t\t2");
+        id1.add("\t\t3");
+        {
+            int i = 0;
+            while (i < id1.size()) {
+                i++;
+            }
+        }
+        //adding number id
+        ArrayList<String> aItem1 = new ArrayList<String>();
+        aItem1.add("\t\t\t\t\t\tOpen Home Page products");
+        aItem1.add("\t\t\t\t\t\tClick on any button specified in Test-Data 1");
+        aItem1.add("\t\t\t\t\t\tClick on any button specified in Test-Data 2");
 
+        {
+            int i = 0;
+            while (i < aItem1.size()) {
+                i++;
+            }
+        }
+
+        //adding Action Item
+
+        ArrayList<String> eResults1 = new ArrayList<String>();
+        eResults1.add("\t\t\t\t\t\t\t\t\tPage is displayed");
+        eResults1.add("\t\t\tProduct are added in shopping cart");
+        eResults1.add("\t\t\tProduct are added in shopping cart");
+
+        {
+            int i = 0;
+            while (i < eResults1.size()) {
+                i++;
+            }
+        }
+
+        //adding Expected Results
+
+        ArrayList<String> pf1 = new ArrayList<String>();
+        pf1.add("\t\t\t\t\t\t\t\t\t\t\tPASS");
+        pf1.add("\t\t\t\t\t\t\tPASS");
+        pf1.add("\t\t\t\t\t\t\tFAIL");
+
+        for (int i = 0; i < aItem1.size(); i++) {
+            System.out.println(id1.get(i) + aItem1.get(i) + eResults1.get(i) + pf1.get(i)); }
 
 
 
