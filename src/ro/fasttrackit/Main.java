@@ -14,6 +14,7 @@ public class Main {
         title.add("\t\t\t\t\t\t\t\t\t\t\tPass/Fail");
         System.out.println(title);
         //Title from my Test Case
+        System.out.println();
         System.out.println("\tTC_DS_01\t Verify Login Functionality");
         System.out.println("Pre-req:Username:dino,beetle,turtle,Password:choochoo");
         System.out.println();
@@ -79,9 +80,9 @@ public class Main {
         System.out.println();
 
         ArrayList<String> id1 = new ArrayList<String>();
-        id1.add("\t\t1");
-        id1.add("\t\t2");
-        id1.add("\t\t3");
+        id1.add("\t\t4");
+        id1.add("\t\t5");
+        id1.add("\t\t6");
         {
             int i = 0;
             while (i < id1.size()) {
