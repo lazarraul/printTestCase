@@ -127,7 +127,5 @@ public class Main {
             System.out.println(id1.get(i) + aItem1.get(i) + eResults1.get(i) + pf1.get(i)); }
 
 
-
-
     }
 }
